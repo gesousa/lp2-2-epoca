@@ -13,7 +13,7 @@ public class Rainha extends CrazyPiece {
             for (int i = 0; i < Math.abs(yD - this.getYInicial()); i++) {
 
                 int tempX = Math.abs(xD - this.getXInicial()) + i;//
-                System.out.println("tempX: " + tempX);
+                System.out.println("temp X: " + tempX);
                 System.out.println("Math X: " + Math.abs(xD - this.getXInicial()));
                 System.out.println("Math y: " + Math.abs(yD - this.getYInicial()));
                 Optional result = lista.stream()
